@@ -131,8 +131,6 @@ Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador d
 <details>
 <summary><b>Menu de aplicativos</b></summary>
 
-Seu sistema iniciará sem papel de parede, um tema bem feio e com alguns detalhes faltando refinamento.
-
 temos 3 formas de acessar o menu de aplicativos (Rofi):
 - `Maneira 1`:
 
@@ -155,7 +153,7 @@ Com Rofi aberto, escreva *personalizar* e abra o app:
 ![image](https://user-images.githubusercontent.com/84329097/121208063-2a723a00-c850-11eb-94cc-5944fbc9fd3a.png)
 
 
-Fique a vontade para selecionar o tema desejado, selecionei o *Adapta-Nokto-Eta* (disponível em https://www.gnome-look.org/p/1190851:
+Fique a vontade para selecionar o tema desejado, selecionei o *Adapta-Nokto-Eta* (disponível em https://www.gnome-look.org/p/1190851):
 
 ![image](https://user-images.githubusercontent.com/84329097/121208193-44138180-c850-11eb-88db-7980cee7557d.png)
 
@@ -193,7 +191,7 @@ Com a pasta adicionada, clique em *OK*:
 
 ![image](https://user-images.githubusercontent.com/84329097/121211529-ef253a80-c852-11eb-8bae-07f81501a12e.png)
 
-Com isso perceberá que aparecem os papeis de parede do sistema. Após selecionar, clique em *Apply*:
+Com isso perceberá que aparecem os papeis de parede do sistema. Após selecionar o desejado, clique em *Apply*:
 
 ![image](https://user-images.githubusercontent.com/84329097/121211728-1976f800-c853-11eb-8c78-afaa685eb39a.png)
 
@@ -213,7 +211,7 @@ Com o terminal aberto, clique com o botão direito do mouse na área do seu term
 ![image](https://user-images.githubusercontent.com/84329097/121220067-ac676080-c85a-11eb-889f-1b5521a27e34.png)
 
 Na aba *Geral*:
-- Em *Barra de rolagem e:* mude para *Desabilitado*.
+- Em *Barra de rolagem é:* mude para *Desabilitado*.
 - Em *Formato de cursor:* mude para *Sublinhado*.
 
 ![image](https://user-images.githubusercontent.com/84329097/121221037-8f7f5d00-c85b-11eb-8de0-cf9884778db7.png)
@@ -225,7 +223,7 @@ Na aba *Aparência*:
 
 ![image](https://user-images.githubusercontent.com/84329097/121222000-8642c000-c85c-11eb-8c85-3eddb65737c9.png)
 
-Na aba *Cores* para que tenhamos um terminal mais harmonioso com o tema selecionado:
+Na aba *Cores*, para que tenhamos um terminal mais harmonioso com o tema selecionado:
 - Marque a opção *Usar cores do tema do sistema para texto e fundos*.
 
 ![image](https://user-images.githubusercontent.com/84329097/121224125-a2476100-c85e-11eb-841c-5180f0948dbc.png)
