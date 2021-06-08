@@ -1,3 +1,4 @@
+
 # Xubuntu 20.04 + bspwm
 
 ### Índice
@@ -34,7 +35,9 @@ Esse script foi testado e está disponível para ser executado no Xubuntu 20.04 
 
 ### Tela do sistema após script
 
+> Papel de parede, theme e ícones não estão presentes no script.
 
+![001](https://user-images.githubusercontent.com/84329097/121204342-35779b00-c84d-11eb-8cb8-4e2babb2980f.png)
 
 
 #### Mais telas
@@ -43,17 +46,21 @@ Esse script foi testado e está disponível para ser executado no Xubuntu 20.04 
 <summary><b>Capturas de tela</b></summary>
 <br>
   
-![02](https://user-images.githubusercontent.com/84329097/120730511-06ad9d80-c4b8-11eb-8fd8-c06f55ec19b0.png)
+![002](https://user-images.githubusercontent.com/84329097/121205677-407efb00-c84e-11eb-8f60-6b29460f8e30.png)
    
-![03](https://user-images.githubusercontent.com/84329097/120730512-07463400-c4b8-11eb-87e5-3519ab137696.png)
+![003](https://user-images.githubusercontent.com/84329097/121205683-41b02800-c84e-11eb-9652-5707db1a2399.png)
    
-![04](https://user-images.githubusercontent.com/84329097/120730513-07deca80-c4b8-11eb-910b-43493313f723.png)
+![03](https://user-images.githubusercontent.com/84329097/121205690-42e15500-c84e-11eb-92cd-2ab55026c108.png)
    
-![05](https://user-images.githubusercontent.com/84329097/120730515-07deca80-c4b8-11eb-8b4d-2471d0b52be3.png)
+![04](https://user-images.githubusercontent.com/84329097/121205694-4379eb80-c84e-11eb-8464-dd32bbb30a76.png)
+
+Polybar instalada via script
    
-![06](https://user-images.githubusercontent.com/84329097/120730518-08776100-c4b8-11eb-9102-54d04ef7ee44.png)
+![barra](https://user-images.githubusercontent.com/84329097/121206095-92c01c00-c84e-11eb-9bae-9873f9d8cae3.png)
    
-![07](https://user-images.githubusercontent.com/84329097/120730520-090ff780-c4b8-11eb-9299-66650d3c6517.png)
+Calendário extendido
+   
+![barra2](https://user-images.githubusercontent.com/84329097/121206102-9358b280-c84e-11eb-8727-72cc110309a6.png)
 
 
 </details>
@@ -112,9 +119,10 @@ Fontes usadas por esse tema:
 
 ### Acessando o bspwm
 Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador de janelas *bspwm* é necessário selecioná-lo durante o *login*:
-- Quando estiver escrevendo a senha, existe uma engrenagem (:gear:) no canto inferior direito, através desse menu podemos trocar para *bspwm*:
+- Clique na opção de troca e selecione *bspwm*
 
-![image](https://user-images.githubusercontent.com/84329097/118713444-51f95800-b7f8-11eb-9f69-539adfd75b48.png)
+![login](https://user-images.githubusercontent.com/84329097/121206934-3f9a9900-c84f-11eb-8cbd-65238c17f59b.png)
+
 
 - Depois de selecionar `bspwm` e digitar a sua senha, pressione <kbd>Enter</kbd>.
 
@@ -130,9 +138,9 @@ Seu sistema iniciará sem papel de parede, um tema bem feio e com alguns detalhe
 temos 3 formas de acessar o menu de aplicativos (Rofi):
 - `Maneira 1`:
 
-![image](https://user-images.githubusercontent.com/84329097/118716007-b74e4880-b7fa-11eb-91ea-9dbb6a607344.png)
+![image](https://user-images.githubusercontent.com/84329097/121207769-ed0dac80-c84f-11eb-9674-1f063bf99762.png)
 
-Por esse ícone no canto superior esquerdo.
+Por esse ícone no canto inferior esquerdo.
 
 - `Maneira 2`: Pressionando a tecla <kbd>Super</kbd> (também conhecida por tecla Windows) ou
 
@@ -146,16 +154,16 @@ Por esse ícone no canto superior esquerdo.
 
 Com Rofi aberto, escreva *personalizar* e abra o app:
 
-![image](https://user-images.githubusercontent.com/84329097/118718425-99361780-b7fd-11eb-9d46-14fd8b6a520c.png)
+![image](https://user-images.githubusercontent.com/84329097/121208063-2a723a00-c850-11eb-94cc-5944fbc9fd3a.png)
 
 
-Fique a vontade para selecionar o tema desejado, selecionei o *Pop-dark*:
+Fique a vontade para selecionar o tema desejado, selecionei o *Adapta-Nokto-Eta* (disponível em https://www.gnome-look.org/p/1190851:
 
-![image](https://user-images.githubusercontent.com/84329097/118718512-b4a12280-b7fd-11eb-8e04-a35e27fe80be.png)
+![image](https://user-images.githubusercontent.com/84329097/121208193-44138180-c850-11eb-88db-7980cee7557d.png)
 
-Para o *Tema de ícones* escolhi *Pop*:
+Para o *Tema de ícones* escolhi *Luv-Folders-Dark* (disponível em https://github.com/Nitrux/luv-icon-theme):
 
-![image](https://user-images.githubusercontent.com/84329097/118718572-c71b5c00-b7fd-11eb-8a5d-66e0cb1841d7.png)
+![image](https://user-images.githubusercontent.com/84329097/121209081-ed5a7780-c850-11eb-8317-36291a0f0a0a.png)
 
 clique em <kbd>Aplicar</kbd> para que as alterações entrem em vigor.
 
@@ -166,28 +174,30 @@ clique em <kbd>Aplicar</kbd> para que as alterações entrem em vigor.
 <summary><b>Papel de parede</b></summary>
 
 No menu de aplicativos, escreva *nitrogen* para buscar:
+   
+![image](https://user-images.githubusercontent.com/84329097/121210601-2e06c080-c852-11eb-95d0-14117d5e1840.png)
 
-![image](https://user-images.githubusercontent.com/84329097/118718846-1c576d80-b7fe-11eb-97ad-aa62dc2a00d2.png)
 
 Com o app aberto, clique em *Preferences*
+   
+![image](https://user-images.githubusercontent.com/84329097/121210301-f1d36000-c851-11eb-9859-1ea645d67a00.png)
 
-![image](https://user-images.githubusercontent.com/84329097/118718931-35601e80-b7fe-11eb-81ea-6deedfcc5f59.png)
 
 Clique em *Add*:
 
-![image](https://user-images.githubusercontent.com/84329097/118718985-46a92b00-b7fe-11eb-9123-d8f05b64885e.png)
+![image](https://user-images.githubusercontent.com/84329097/121210838-64444000-c852-11eb-84db-a96411e7f2a3.png)
 
-Para facilitar a nossa vida, clique em *File System*, pressione <kbd>Ctrl</kbd> + <kbd>l</kbd> para que possa digitar o endereço na barra, cole: `/usr/share/background/` e clique em Select:
+Para facilitar a nossa vida, clique em *File System*, pressione <kbd>Ctrl</kbd> + <kbd>l</kbd> para que possa digitar o endereço na barra, cole: `/usr/share/xfce4/backdrops/` e clique em Select:
 
-![image](https://user-images.githubusercontent.com/84329097/118719117-70625200-b7fe-11eb-813f-0078715ba45d.png)
+![image](https://user-images.githubusercontent.com/84329097/121211212-b08f8000-c852-11eb-99ea-53684e80eec3.png)
 
 Com a pasta adicionada, clique em *OK*:
 
-![image](https://user-images.githubusercontent.com/84329097/118719335-c0d9af80-b7fe-11eb-9494-59beb1c93f03.png)
+![image](https://user-images.githubusercontent.com/84329097/121211529-ef253a80-c852-11eb-8bae-07f81501a12e.png)
 
 Com isso perceberá que aparecem os mesmos papeis de parede que o PopOs com gnome apresenta, após selecionar, clique em *Apply*:
 
-![image](https://user-images.githubusercontent.com/84329097/118719415-d8189d00-b7fe-11eb-953c-b4920d4a7e39.png)
+![image](https://user-images.githubusercontent.com/84329097/121211728-1976f800-c853-11eb-8c78-afaa685eb39a.png)
 
 obs: para fechar a janela, pressione <kbd>Super</kbd> + <kbd>c</kbd>.
 
