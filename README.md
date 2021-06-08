@@ -29,13 +29,13 @@ Esse script possui a intenção de instalar o gerenciador de janelas [bspwm](htt
 
 ### Sistema base
 
-Esse script foi testado e está disponível para ser executado no Xubuntu 20.04 como base e não foi usado em outro sistema, caso queira executar por conta própria ou modificar na intenção de moldar conforme necessário para seu sistema, fique a vontade, porem não tem como me responsabilizar por isso. Para mais informações sobre o sistema utilizado: [Xubuntu](https://xubuntu.org/download).
+Esse script foi testado e está disponível para ser executado no Xubuntu 20.04 como base e não foi usado em outro sistema, caso queira executar por conta própria ou modificar na intenção de moldar conforme necessário para seu sistema, fique à vontade, porém não tem como me responsabilizar por isso. Para mais informações sobre o sistema utilizado: [Xubuntu](https://xubuntu.org/download).
 
 ##
 
 ### Tela do sistema após script
 
-> Papel de parede, theme e ícones não estão presentes no script.
+> Papel de parede, tema e ícones não estão presentes no script.
 
 ![001](https://user-images.githubusercontent.com/84329097/121204342-35779b00-c84d-11eb-8cb8-4e2babb2980f.png)
 
@@ -57,9 +57,7 @@ Esse script foi testado e está disponível para ser executado no Xubuntu 20.04 
 Polybar instalada via script
    
 ![barra](https://user-images.githubusercontent.com/84329097/121206095-92c01c00-c84e-11eb-9bae-9873f9d8cae3.png)
-   
-Calendário extendido
-   
+     
 ![barra2](https://user-images.githubusercontent.com/84329097/121206102-9358b280-c84e-11eb-8727-72cc110309a6.png)
 
 
@@ -187,7 +185,7 @@ Clique em *Add*:
 
 ![image](https://user-images.githubusercontent.com/84329097/121210838-64444000-c852-11eb-84db-a96411e7f2a3.png)
 
-Para facilitar a nossa vida, clique em *File System*, pressione <kbd>Ctrl</kbd> + <kbd>l</kbd> para que possa digitar o endereço na barra, cole: `/usr/share/xfce4/backdrops/` e clique em Select:
+Para facilitar a nossa vida, clique em *File System*, pressione <kbd>Ctrl</kbd> + <kbd>l</kbd> para que possa digitar o endereço na barra, cole: `/usr/share/xfce4/backdrops/` e clique em *Select*:
 
 ![image](https://user-images.githubusercontent.com/84329097/121211212-b08f8000-c852-11eb-99ea-53684e80eec3.png)
 
@@ -195,7 +193,7 @@ Com a pasta adicionada, clique em *OK*:
 
 ![image](https://user-images.githubusercontent.com/84329097/121211529-ef253a80-c852-11eb-8bae-07f81501a12e.png)
 
-Com isso perceberá que aparecem os mesmos papeis de parede que o PopOs com gnome apresenta, após selecionar, clique em *Apply*:
+Com isso perceberá que aparecem os papeis de parede do sistema. Após selecionar, clique em *Apply*:
 
 ![image](https://user-images.githubusercontent.com/84329097/121211728-1976f800-c853-11eb-8c78-afaa685eb39a.png)
 
@@ -212,41 +210,51 @@ Para abrir o terminal, pressione  <kbd>Super</kbd> +  <kbd>Enter</kbd>
 
 Com o terminal aberto, clique com o botão direito do mouse na área do seu terminal e clique em *Preferências*:
 
-![image](https://user-images.githubusercontent.com/84329097/118720337-db605880-b7ff-11eb-94e2-3deeff207cf4.png)
+![image](https://user-images.githubusercontent.com/84329097/121220067-ac676080-c85a-11eb-889f-1b5521a27e34.png)
 
-Na aba *Texto*, gosto de deixar a fonte em 9 e mudar a *Forma do Cursor* para *Sublinhado*
+Na aba *Geral*:
+- Em *Barra de rolagem e:* mude para *Desabilitado*.
+- Em *Formato de cursor:* mude para *Sublinhado*.
 
-![image](https://user-images.githubusercontent.com/84329097/118720441-f92dbd80-b7ff-11eb-8b51-48578b0795c1.png)
+![image](https://user-images.githubusercontent.com/84329097/121221037-8f7f5d00-c85b-11eb-8de0-cf9884778db7.png)
 
-Na aba *Cores* marque a opção *Use transparent background* e ajuste conforme desejado:
+Na aba *Aparência*:
+- Mude a fonte para *Iosevka Custom Regular*
+- Em *Imagem de fundo* troque para *Fundo transparente* e regule com a intensidade desejada.
+- Em *Abrindo novas janelas* desmarque a opção *Mostrar barra de menu em novas janelas*
 
-![image](https://user-images.githubusercontent.com/84329097/118720542-18c4e600-b800-11eb-9a6a-5a9b2d2d7e73.png)
+![image](https://user-images.githubusercontent.com/84329097/121222000-8642c000-c85c-11eb-8c85-3eddb65737c9.png)
 
-Na *Rolagem* desmarque a opção *Mostrar barra de rolagem*
+Na aba *Cores* para que tenhamos um terminal mais harmonioso com o tema selecionado:
+- Marque a opção *Usar cores do tema do sistema para texto e fundos*.
 
-![image](https://user-images.githubusercontent.com/84329097/118720595-2e3a1000-b800-11eb-9ebe-efc957cede06.png)
-
-No menu *Geral* desmarque a opção *Mostrar por padrão barra de menu em novas janelas*
-
-![image](https://user-images.githubusercontent.com/84329097/118720658-44e06700-b800-11eb-89ea-99157ce62419.png)
+![image](https://user-images.githubusercontent.com/84329097/121224125-a2476100-c85e-11eb-841c-5180f0948dbc.png)
 
 Tudo configurado, pode fechar o terminal com <kbd>Super</kbd> + <kbd>c</kbd> e pode reabrir (<kbd>Super</kbd> + <kbd>Enter</kbd> ) para ver como ficou. Deve ficar desta forma:
 
-![image](https://user-images.githubusercontent.com/84329097/118720775-680b1680-b800-11eb-8b73-4c3ec38ca6e0.png)
+![05](https://user-images.githubusercontent.com/84329097/121224062-8e9bfa80-c85e-11eb-9df1-1badb96b22f0.png)
 
 ##
 </details>
 
 <details>
 <summary><b>Menu de desligamento</b></summary>
+   
+Possibilidades: Bloquear a tela, Deixar o computador em espera, Sair (logoff), Reiniciar e Desligar:
+   
+![image](https://user-images.githubusercontent.com/84329097/121224337-d458c300-c85e-11eb-9629-6c9cec7f9d68.png)
 
-No canto superior direito existe um botão vermelho com a função de ter as seguintes possibilidades: Bloquear a tela, Deixar o computador em espera, Sair (logoff), Reiniciar e Desligar:
+Formas de acionar o menu:
+   
+- `Maneira 1`:
+No canto inferior direito existe um botão vermelho: 
+   
+![image](https://user-images.githubusercontent.com/84329097/121224604-200b6c80-c85f-11eb-990a-20e7ce3c0386.png)
 
-![image](https://user-images.githubusercontent.com/84329097/118721077-c59f6300-b800-11eb-9f52-c6aeffa87672.png)
+- `Maneira 2:`
+<kbd> W + x</kbd>
 
 Uma vez escolhida uma função, *Sair* por exemplo, o sistema não pedirá confirmação, executando na mesma hora.
-
-Observação: para utilizar as funções Bloquear e Em espera é necessário ter instalado o betterlockscreen ([link com instruções de instalação](https://github.com/pavanjadhaw/betterlockscreen#installation)).
 
 </details>
 
@@ -255,7 +263,7 @@ Observação: para utilizar as funções Bloquear e Em espera é necessário ter
 ### Teclas de atalhos
 Para utilização do *bspwm* vai notar que muitas das vezes o teclado é o nosso melhor amigo, para isso precisamos aprender alguns atalhos interessantes para nossa utilização.
 
-Caso queira personalizar algum, acrecentar ou remover, pode ser realizado editando o arquivos: `~/.config/sxhkd/sxhkdrc`.
+Caso queira personalizar algum, acrescentar ou remover, pode ser realizado editando o arquivo: `~/.config/sxhkd/sxhkdrc`.
 
 Seguem os atalho já configurados:
 
