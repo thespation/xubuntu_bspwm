@@ -93,8 +93,8 @@ sleep 3s
 	cp -rf /tmp/xubuntu_bspwm/config/rofi ~/.config
 	cp -rf /tmp/xubuntu_bspwm/config/gtk-3.0/ ~/.config/
 
-	sudo cp -rf /tmp/xubuntu_bspwm/aparencia/icons/* /usr/share/icons
-	sudo cp -rf /tmp/xubuntu_bspwm/aparencia/themes/* /usr/share/themes
+	#sudo cp -rf /tmp/xubuntu_bspwm/aparencia/icons/* /usr/share/icons
+	#sudo cp -rf /tmp/xubuntu_bspwm/aparencia/themes/* /usr/share/themes
 
 sleep 3s
 	clear
