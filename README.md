@@ -1,5 +1,10 @@
 
-# Xubuntu 20.04 + bspwm
+## Xubuntu 20.04 + bspwm
+
+# Este projeto não terá mais atualizações
+Caso tenha interesse, segue projeto vigente: https://github.com/thespation/dpux_bspwm
+
+<hr>
 
 ### Índice
 
